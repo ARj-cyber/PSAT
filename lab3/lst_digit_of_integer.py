@@ -1,5 +1,4 @@
-#!/usr/bin/env/ python3
-
+#!/usr/bin/env python3
 
 
 
@@ -7,7 +6,7 @@
 
 # Given an integer number, print its last digit. 
 
-
 num = input("Enter the number : ")
-last_digit = (int(num))%10
-print("the last digit is" , last_digit )
+num = num[-1]
+print("the last digit is" , num)
+
